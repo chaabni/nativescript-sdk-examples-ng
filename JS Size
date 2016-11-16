@@ -1,0 +1,12 @@
+JS Size in Release Build
+-------------------------
+
+    With webpack
+    --------------------------------------
+    find ./platforms/android/src/main/assets/app -type f -name '*.js' -exec du -ck {} + | grep total$: 4972	total
+    find ./platforms/ios/nativescriptsdkexamplesng/app -type f -name '*.js' -exec du -ck {} + | grep total$: 5084	total
+
+    Without webpack
+    --------------------------------------
+    find ./platforms/android/src/main/assets/app -type f -name '*.js' -exec du -ck {} + | grep total$: 11772	total
+    find ./platforms/ios/nativescriptsdkexamplesng/app -type f -name '*.js' -exec du -ck {} + | grep total$: 11912	total
