@@ -1,18 +1,22 @@
 All other things being equal...
 
+No optimizations (branch `master`)
+--------------------------------------
+Samsung Galaxy S4 (Android 5.0.1): 27s
+             iPhone 5 (iOS 9.2.1): 19s  
+
 With webpack (branch `webpack`)
 --------------------------------------
 Samsung Galaxy S4 (Android 5.0.1): 30s
              iPhone 5 (iOS 9.2.1): 21s     
              
-
-Without webpack (branch `master`)
---------------------------------------
-Samsung Galaxy S4 (Android 5.0.1): 27s
-             iPhone 5 (iOS 9.2.1): 19s  
-
-
-With AoT compilation, tree-shake and webpack (branch aot-webpack)
+With AoT compilation, webpack and tree-shake (webpack uglify plugin) (branch aot-webpack)
 -----------------------------------------------------------------
-Samsung Galaxy S4 (Android 5.0.1): ??s
-             iPhone 5 (iOS 9.2.1): 4.315s     
+Samsung Galaxy S4 (Android 5.0.1): CRASH
+             iPhone 5 (iOS 9.2.1): 4.315s
+             
+With lazy-load
+-----------------------------------------------------------------
+Samsung Galaxy S4 (Android 5.0.1): 8.87s
+             iPhone 5 (iOS 9.2.1): 4.69s
+             
