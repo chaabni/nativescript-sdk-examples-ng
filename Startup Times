@@ -10,3 +10,9 @@ Without webpack
 --------------------------------------
 Samsung Galaxy S4 (Android 5.0.1): 27s
              iPhone 5 (iOS 9.2.1): 19s  
+
+
+With AoT Compilation and webpack
+--------------------------------------
+Samsung Galaxy S4 (Android 5.0.1): ??s
+             iPhone 5 (iOS 9.2.1): ??s     
