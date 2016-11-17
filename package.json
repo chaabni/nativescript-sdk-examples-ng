@@ -25,7 +25,11 @@
       "version": "2.4.0"
     },
     "tns-android": {
+<<<<<<< f493c7d22630aaee003fbbcc37fb450635f0b322
       "version": "2.4.0"
+=======
+      "version": "2.5.0-next-2016-11-16-1405"
+>>>>>>> Camera examples lazy loaded
     }
   },
   "dependencies": {
