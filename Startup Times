@@ -19,4 +19,9 @@ With lazy-load
 -----------------------------------------------------------------
 Samsung Galaxy S4 (Android 5.0.1): 8.87s
              iPhone 5 (iOS 9.2.1): 4.69s
-             
+
+With lazy-load and webpack
+-----------------------------------------------------------------
+Samsung Galaxy S4 (Android 5.0.1): 9.92s
+             iPhone 5 (iOS 9.2.1): 4.51s
+
