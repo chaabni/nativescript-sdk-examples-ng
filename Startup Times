@@ -1,18 +1,18 @@
 All other things being equal...
 
-With webpack
+With webpack (branch `webpack`)
 --------------------------------------
 Samsung Galaxy S4 (Android 5.0.1): 30s
              iPhone 5 (iOS 9.2.1): 21s     
              
 
-Without webpack
+Without webpack (branch `master`)
 --------------------------------------
 Samsung Galaxy S4 (Android 5.0.1): 27s
              iPhone 5 (iOS 9.2.1): 19s  
 
 
-With AoT Compilation and webpack
---------------------------------------
+With AoT compilation, tree-shake and webpack (branch aot-webpack)
+-----------------------------------------------------------------
 Samsung Galaxy S4 (Android 5.0.1): ??s
-             iPhone 5 (iOS 9.2.1): ??s     
+             iPhone 5 (iOS 9.2.1): 4.315s     
